@@ -1,3 +1,4 @@
+// saying hello to the array Element
 const students = ["kunal","rahul","sejal","piyush","yash"]
 
 for(const school of students){
