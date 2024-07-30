@@ -16,3 +16,17 @@ for(let i=1; i<marks.length;i++)
    
 }
 console.log(larg)
+
+// to find the sum of odd numbers from the given array
+
+
+const num = [2,4,5,1,10,17,21]
+let add = 0;
+
+for(let i=1;i<num.length;i++)
+{
+    if(num[i]%2==1){
+        add+= num[i]
+    }
+}
+console.log(`sum fo odd number is ${add}`)
